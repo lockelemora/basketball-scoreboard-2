@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    text-align: center;
+    padding: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    width: 575px;
+    height: 385px;
+    margin: 0 auto;
+}
+
+.score {
+    background: #080001;
+    width: 155px;
+    margin-bottom: 26px;
+    margin-top: 0;
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    color: white
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 68px;
+    margin-bottom: 21px;
+}
+
+.button {
+    height: 45px;
+    width: 45px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+#new-game {
+    margin-top: 20px;
+    height: 55px;
+    width: 150px;
+    font-size: 25px;
+}
